@@ -12,7 +12,7 @@ def index(state: State) -> Page:
     if state.count < 0:
         state.count = 0
     return Page(state, [
-        Image(url='bana.jpg', width=None, height=None),
+        Image(url='bana.png', width=None, height=None),
         "Bananas: " + str(state.count) + "\n",
         Button("+1", "increment"),
         Button("-1", "decrement"),
