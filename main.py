@@ -49,6 +49,3 @@ set_site_information(
 hide_debug_information()
 set_website_framed(False)
 start_server(State(5))
-
-
-start_server(State())
